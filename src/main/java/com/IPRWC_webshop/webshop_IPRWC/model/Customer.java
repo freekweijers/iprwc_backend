@@ -14,14 +14,13 @@ public class Customer {
 
     @Setter
     @Getter
-    private String username;
-    private String password; // Consider secure password hashing
+    private String name;
 
     @Setter
     @Getter
     private String email;
     // Other customer-related fields (name, address, etc.)
-    @ManyToOne(optional = true)
+    @OneToOne(optional = true)
     @JoinColumn(name = "user_id", nullable = true)
     private User optionalRegisteredUser;
 

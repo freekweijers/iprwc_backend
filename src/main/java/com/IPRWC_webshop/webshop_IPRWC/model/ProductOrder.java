@@ -27,4 +27,9 @@ public class ProductOrder {
     private String status;
 
     // Getters and setters
+
+    public void setCurrentDateAndNewOrder() {
+        this.date = LocalDate.now();
+        this.status = "Order placed";
+    }
 }
