@@ -1,0 +1,4 @@
+localhost, 35.204.0.144 {
+    root * /srv
+    file_server
+}

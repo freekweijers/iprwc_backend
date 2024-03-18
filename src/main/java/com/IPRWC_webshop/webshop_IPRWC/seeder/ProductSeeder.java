@@ -37,7 +37,7 @@ public class ProductSeeder implements CommandLineRunner {
                 new Product("BMW 3 Series", 45000.00, 10, "Luxury sedan", "https://www.autocar.co.uk/sites/autocar.co.uk/files/images/car-reviews/first-drives/legacy/_p_9416_0.jpg", bmwCarCategory),
                 new Product("BMW 5 Series", 55000.00, 15, "Executive sedan", "https://i.ytimg.com/vi/3Aa6Y3AJJpg/maxresdefault.jpg", bmwCarCategory),
                 new Product("BMW 7 Series", 80000.00, 8, "Flagship sedan", "https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/wp-content/uploads/2017/08/E32-1.jpg", bmwCarCategory),
-                new Product("BMW X3", 43000.00, 12, "Compact SUV", "https://www.arlingtoncardinal.com/wordpress/wp-content/uploads/2023/03/BMW-X3crashwithtreeMar12-2023.jpg", bmwCarCategory),
+                new Product("BMW X3", 300.00, 12, "Compact SUV", "https://www.arlingtoncardinal.com/wordpress/wp-content/uploads/2023/03/BMW-X3crashwithtreeMar12-2023.jpg", bmwCarCategory),
                 new Product("BMW X5", 59000.00, 7, "Midsize SUV", "https://www.autocar.co.uk/sites/autocar.co.uk/files/images/car-reviews/first-drives/legacy/_p_9416_0.jpg", bmwCarCategory),
                 new Product("BMW X7", 74000.00, 5, "Luxury SUV", "https://www.autocar.co.uk/sites/autocar.co.uk/files/images/car-reviews/first-drives/legacy/_p_9416_0.jpg", bmwCarCategory),
                 new Product("BMW Z4", 50000.00, 20, "Sports car", "https://www.autocar.co.uk/sites/autocar.co.uk/files/images/car-reviews/first-drives/legacy/_p_9416_0.jpg", bmwCarCategory),
